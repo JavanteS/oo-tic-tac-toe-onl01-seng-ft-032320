@@ -55,7 +55,6 @@ class TicTacToe
     player = current_player
     move(mark, player)
     display_board
-    current_player
   else
     puts "Invalid Entry"
     turn
