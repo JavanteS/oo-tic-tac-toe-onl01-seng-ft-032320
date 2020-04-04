@@ -128,7 +128,7 @@ end
 end
   
 def play
-  @board = Array.new(9, " ")
+  
   until over? == true
    turn
   end
